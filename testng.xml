@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="examplesuite1" thread-count="2" parallel="tests">
+  <test name="chromeTest" >
+  <parameter name="browser" value="ch" />
+    <classes>
+      <class name="CrossBrowserTesting"/>
+    </classes>
+ </test>
+ 
+  <test name="ForefoxTest" >
+  <parameter name="browser" value="ff" />
+    <classes>
+      <class name="CrossBrowserTesting"/>
+    </classes>
+ </test>
+ 
+</suite>

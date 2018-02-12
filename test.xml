@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="examplesuite1">
+  <test name="chromeTest" >
+  <groups>
+    <run>
+      <exclude name="R1"  />      
+    </run>
+  </groups>
+     <classes>
+      <class name="TestNgTest.TestClass"/>
+    </classes>
+ </test>
+ 
+ 
+</suite>
