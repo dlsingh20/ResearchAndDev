@@ -10,7 +10,7 @@
   </groups>
      <classes>
       <class name="TestNgTest.TestClass"/>
-      <!-- <class name="TestNgTest.TestClass"/> ->
+      
     </classes>
  </test>
  
